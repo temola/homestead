@@ -5,3 +5,18 @@
     .special a {
     text-decoration: none;
     }
+
+    .wrapper.style1 .box {
+      border-radius: 10%;
+    }
+
+    .wrapper.style2 {
+			background: #395775;
+			color: #19aced;
+		}
+
+    .wrapper.style2 .box {
+      background: #a0a0a0;
+      color: #fff;
+      border-radius: 10%;
+    }
