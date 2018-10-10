@@ -20,3 +20,20 @@
       color: #fff;
       border-radius: 10%;
     }
+
+        #banner::after {
+          content: ' ';
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+          opacity: .5;
+         background-image: url("images/1J8A5768.jpg");
+         background-size: cover;
+         max-height: 15em;
+         background-repeat: no-repeat;
+         background-position: 0% bottom;
+        }
