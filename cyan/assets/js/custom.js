@@ -1,3 +1,3 @@
 $(function() {
-	$('.special').matchHeight(options);
+	$('.special').matchHeight;
 });
