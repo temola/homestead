@@ -31,9 +31,8 @@
               height: 100%;
               z-index: 1;
               opacity: .5;
-             background-image: url("images/1J8A5768.jpg");
+             background-image: url("images/homesteadBannerWeb.jpg");
              background-size: cover;
-             max-height: 15em;
              background-repeat: no-repeat;
              background-position: 0% bottom;
             }

@@ -3170,7 +3170,6 @@ input, select, textarea {
 
 	#banner {
 		background-color: #443d36;
-		background-image: url("images/banner.svg");
 		background-position: 25% bottom;
 		background-repeat: repeat-x;
 		background-size: 1500px 300px;
