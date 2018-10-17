@@ -2346,7 +2346,6 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
 			width: 100%;
 		}
 
@@ -3169,10 +3168,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-color: #443d36;
-		background-position: 25% bottom;
-		background-repeat: repeat-x;
-		background-size: 1500px 300px;
+		
 		color: #fff;
 		padding: 16em 0 14em 0;
 		text-align: center;
@@ -3188,6 +3184,7 @@ input, select, textarea {
 			line-height: 1.25em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
+      z-index:1;
 		}
 
 		#banner p {
