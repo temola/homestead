@@ -1,60 +1,40 @@
-//
-//	Equal height - by Lewi Hussey
-//
+//equal height js
 
-var matchHeight = function () {
-
-	function init() {
-		eventListeners();
-		matchHeight();
+function sameHeights(selector) {
+	    var selector = selector || '[data-key="sameHeights"]',
+	        query = document.querySelectorAll(selector),
+	        elements = query.length,
+	        max = 0;
+	    if (elements) {
+	        while (elements--) {
+	            var element = query[elements];
+	            if (element.clientHeight > max) {
+	                max = element.clientHeight;
+	            }
+	        }
+	        elements = query.length;
+	        while (elements--) {
+	            var element = query[elements];
+	            element.style.height = max + 'px';
+	        }
+	    }
 	}
+	
 
-	function eventListeners(){
-		$(window).on('resize', function() {
-			matchHeight();
-		});
+if ('addEventListener' in window) {
+	    // first group
+	    window.addEventListener('resize', function(){
+	        sameHeights('[data-key="groupName"]');
+	    });
+	    window.addEventListener('load', function(){
+	        sameHeights('[data-key="groupName"]');
+	    });
+
+	    // second group
+	    window.addEventListener('resize', function(){
+	        sameHeights('[data-key="groupName2"]');
+	    });
+	    window.addEventListener('load', function(){
+	        sameHeights('[data-key="groupName2"]');
+	    });
 	}
-
-	function matchHeight(){
-		var groupName = $('[data-match-height]');
-		var groupHeights = [];
-
-		groupName.css('min-height', 'auto');
-
-		groupName.each(function() {
-			groupHeights.push($(this).outerHeight());
-		});
-
-		var maxHeight = Math.max.apply(null, groupHeights);
-		groupName.css('min-height', maxHeight);
-	};
-
-	return {
-		init: init
-	};
-
-} ();
-
-function matchHeigh2t(){
-	var group2 = $('[data-match-height]');
-	var group2Heights = [];
-
-	group2.css('min-height', 'auto');
-
-	group2.each(function() {
-		group2Heights.push($(this).outerHeight());
-	});
-
-	var maxHeight = Math.max.apply(null, group2Heights);
-	group2.css('min-height', maxHeight);
-};
-
-return {
-	init: init
-};
-
-} ();
-
-$(document).ready(function() {
-	matchHeight.init();
-});
