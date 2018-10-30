@@ -41,3 +41,12 @@
      background-repeat: no-repeat;
      background-position: 0% bottom;
     }
+
+    a.icon-a i {
+        transition: transform .2s;
+    }
+    
+    a.icon-a i:hover {
+        cursor: pointer;
+        transform: scaleY(1.2) scaleX(1.2);
+    }
