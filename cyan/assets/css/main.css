@@ -2303,10 +2303,10 @@ input, select, textarea {
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
-			display: block;
+			display: inline-block;
 			height: 4.5em;
 			line-height: 4.5em;
-			margin: 0 auto 2em auto;
+			margin: 0 auto 1em;
 			text-align: center;
 			width: 4.5em;
 		}
@@ -3168,7 +3168,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		
+
 		color: #fff;
 		padding: 16em 0 14em 0;
 		text-align: center;
