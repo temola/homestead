@@ -45,8 +45,13 @@
     a.icon-a i {
         transition: transform .2s;
     }
-    
+
     a.icon-a i:hover {
         cursor: pointer;
         transform: scaleY(1.2) scaleX(1.2);
+    }
+
+    nav a:hover {
+  			color: #6ccae9 !important;
+  			text-decoration: none;
     }
