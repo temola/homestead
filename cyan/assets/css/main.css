@@ -2881,7 +2881,7 @@ input, select, textarea {
 				background: #82d2ec;
 			}
 
-			.wrapper.style2 input[type="submit"],
+/*		.wrapper.style2 input[type="submit"],
 			.wrapper.style2 input[type="reset"],
 			.wrapper.style2 input[type="button"],
 			.wrapper.style2 button,
@@ -2889,6 +2889,7 @@ input, select, textarea {
 				color: #6ccae9 !important;
 				background: #ffffff;
 			}
+			*/
 
 				.wrapper.style2 input[type="submit"].alt,
 				.wrapper.style2 input[type="reset"].alt,
