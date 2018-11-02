@@ -7,7 +7,7 @@
     }
 
     .corners {
-      border-radius: 10%;
+      border-radius: 3%;
     }
 
     .wrapper.style2 {
@@ -18,7 +18,7 @@
     .wrapper.style2 .box {
       background: #a0a0a0;
       color: #fff;
-      border-radius: 10%;
+      border-radius: 3%;
     }
 
     #banner{
@@ -54,6 +54,7 @@
 .gallery{
   margin-bottom:1.1em;
   transition: transform .2s, box-shadow .2s;
+  border-radius:3%;
 }
 .gallery:hover{
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,.2);
