@@ -45,8 +45,17 @@
     a.icon-a i {
         transition: transform .2s;
     }
-    
+
     a.icon-a i:hover {
         cursor: pointer;
         transform: scaleY(1.2) scaleX(1.2);
     }
+
+.gallery{
+  margin-bottom:1.1em;
+  transition: transform .2s, box-shadow .2s;
+}
+.gallery:hover{
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,.2);
+  transform: scaleY(1.05) scaleX(1.05);
+}
