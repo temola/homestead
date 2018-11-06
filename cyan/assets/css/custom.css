@@ -2,8 +2,25 @@
 
   body {font-family: 'Lora', serif;}
 
+    .navtitle a {
+      font-size: 1.25em;
+      color: #fff;
+      height: inherit;
+			left: 1.25em;
+			line-height: inherit;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 0;
+  		font-weight: 900;
+  		letter-spacing: 0.05em;
+  		text-indent: -0.05em;
+  		text-transform: uppercase;
+      text-decoration: none;
+    }
+
     .special a {
-    text-decoration: none;
+      text-decoration: none;
     }
 
     .corners {
