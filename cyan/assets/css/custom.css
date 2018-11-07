@@ -125,7 +125,7 @@
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    top: 500%;
+    top: 600%;
     z-index: 10;
     position: relative;
 }
@@ -140,8 +140,13 @@
 #header h1 {
   color: inherit;
   font-size: 3em;
-  line-height: 1.25em;
   margin: 0 0 0.5em 0;
   padding: 0;
   z-index:1;
+}
+
+.navtitle {
+    top: .1em;
+    position: absolute;
+    width: 100%;
 }
