@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Cinque | Fine Dining</title>
+  <title>James Millikin Homestead</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" type="text/css" href="assets/libraries/slick/slick.css">
   <link rel="stylesheet" type="text/css" href="assets/libraries/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="font-awesome-animation.min.css">
     <link rel="stylesheet" href="assets/css/custom.css">
 
 
@@ -14,17 +16,33 @@
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
 </head>
-<body>
-  <header>
+<body class="landing is-preload" id="top">
+  <div id="page-wrapper">
 
-
-  <div class="hero-heading">
-    <h1>Stimulate your Senses</h1>
-    <div class="subtitle">Come dine with us at Cinque to simulate all of your five senses with an ambient environment and modern cuisine.</div>
-    <div class="actions"><a class="button" href="contact.html"><span class="button-icon #{icon}"></span>Make a Reservation</a>
-</div>
-  </div>
-  <section class="lazy slider" data-sizes="50vw">
+    <!-- Header -->
+    <header id="header">
+      <div class="navtitle"><a href="index.html">James Millikin Homestead</a></div>
+      <nav id="nav">
+        <ul>
+          <li><a href="tours.html">Tours & Rates</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="getinvolved.html">Get Involved</a></li>
+          <li>
+            <a href="gallery.html" class="icon fa-angle-down">Galleries</a>
+            <ul>
+              <li><a href="eventGallery.html">Event Gallery</a></li>
+              <li><a href="roomGallery.html">Room Gallery</a></li>
+              <li><a href="homesteadGallery.html">Homestead Gallery</a></li>
+            </ul>
+          </li>
+          <li><a href="history.html">History</a></li>
+        </ul>
+      </nav>
+      <div class="hero-heading">
+        <h1>James Millikin Homestead</h1>
+        <div class="subtitle">125 North Pine St.</div>
+      </div>
+    <section class="lazy slider" data-sizes="50vw">
     <div>
         <img data-lazy="images/seafood-hero.jpg" data-srcset="images/seafood-hero.jpg" data-sizes="100vw">
       </div>
@@ -37,6 +55,8 @@
 
   </section>
 </header>
+
+
   <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
   <script src="assets/libraries/slick/slick.js"></script>
@@ -44,6 +64,7 @@
   <script src="assets/js/slider.js"></script>
     <script src="assets/js/main.js"></script>
 
+  </div>
 
 </body>
 </html>

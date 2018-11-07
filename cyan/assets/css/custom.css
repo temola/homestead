@@ -68,16 +68,15 @@
         transform: scaleY(1.2) scaleX(1.2);
     }
 
-.gallery{
+.gallery  {
   margin-bottom:1.1em;
   transition: transform .2s, box-shadow .2s;
   border-radius:3%;
 }
-.gallery:hover{
+.gallery:hover  {
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,.2);
   transform: scaleY(1.05) scaleX(1.05);
 }
-
 
 /************ Carousel ************/
 
@@ -99,7 +98,6 @@
   color: #bbb;
 }
 
-
 .slick-slide {
   transition: all ease-in-out .3s;
   opacity: .2;
@@ -116,26 +114,34 @@
     z-index: 999999;
 }
 
-@media (max-width:40em){
+@media (max-width:40em) {
   .slick-prev:before, .slick-next:before {
     font-size: 30px;
   }
 }
 
-
 .hero-heading {
-    position: absolute;
     color: #fff;
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    top: 40%;
+    top: 500%;
     z-index: 10;
+    position: relative;
 }
 
 @media (max-width: 450px){
 .hero-heading{
   top: 20%;
   padding: 0 1em;
+  }
 }
+
+#header h1 {
+  color: inherit;
+  font-size: 3em;
+  line-height: 1.25em;
+  margin: 0 0 0.5em 0;
+  padding: 0;
+  z-index:1;
 }
