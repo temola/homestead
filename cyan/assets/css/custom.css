@@ -150,3 +150,7 @@
     position: absolute;
     width: 100%;
 }
+
+  #nav {
+  z-index: 9999;
+}
