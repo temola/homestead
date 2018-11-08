@@ -3028,10 +3028,6 @@ input, select, textarea {
 					padding-left: 0;
 				}
 
-					#header nav > ul > li > ul {
-						display: none;
-					}
-
 					#header nav > ul > li a {
 						color: #fff;
 						display: inline-block;
