@@ -152,6 +152,10 @@
     width: 100%;
 }
 
+#nav > ul > li {
+    padding: 0em 1em;
+}
+
 /* stupid code */
 
 .sub-menu-parent { position: relative; }
@@ -179,17 +183,13 @@
 }
 
 /* presentational */
-body { padding: 2%; font: 18px/1.4 sans-serif; }
 
-nav a { color: #E00; display: block; padding: 0.5em 1em; text-decoration: none; }
+nav a { color: #E00; display: block; text-decoration: none; }
 nav a:hover { color: #F55; }
 nav ul,
 nav ul li { list-style-type: none; padding: 0; margin: 0; }
-
-nav > ul { background: #EEE; text-align: center; }
-nav > ul > li { display: inline-block; border-left: solid 1px #aaa; }
-nav > ul > li:first-child { border-left: none; }
+nav > ul { text-align: center; }
 
 .sub-menu {
-  background: #DDD;
+  background: #443e39;
 }
