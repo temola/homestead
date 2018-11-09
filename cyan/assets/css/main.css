@@ -99,7 +99,6 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #808080;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 13pt;
 		font-weight: 400;
 		line-height: 1.65em;
@@ -2996,10 +2995,9 @@ input, select, textarea {
 		#header h1 {
 			height: inherit;
 			left: 1.25em;
-			line-height: inherit;
+      line-height:0;
 			margin: 0;
 			padding: 0;
-			position: absolute;
 			top: 0;
 		}
 
@@ -3028,10 +3026,6 @@ input, select, textarea {
 					margin-left: 3em;
 					padding-left: 0;
 				}
-
-					#header nav > ul > li > ul {
-						display: none;
-					}
 
 					#header nav > ul > li a {
 						color: #fff;
