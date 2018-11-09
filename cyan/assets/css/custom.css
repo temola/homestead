@@ -147,9 +147,16 @@
 }
 
 .navtitle {
-    top: .5em;
     position: absolute;
     width: 100%;
+}
+
+.navtitle a {
+    padding: .5em 0;
+}
+
+#nav {
+  padding: .75em 0em;
 }
 
 #nav > ul > li {
