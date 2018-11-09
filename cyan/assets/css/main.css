@@ -2035,17 +2035,17 @@ input, select, textarea {
 		margin-top: -0.75em;
 	}
 
-	header.major {
+	.major {
 		margin: 0 auto 4em auto;
 		max-width: 56.25em;
 		text-align: center;
 	}
 
-		header.major > :first-child {
+		.major > :first-child {
 			white-space: nowrap;
 		}
 
-			header.major > :first-child:before, header.major > :first-child:after {
+			.major > :first-child:before, .major > :first-child:after {
 				background-image: url("images/header-major-on-light.svg");
 				background-repeat: no-repeat;
 				content: '';
@@ -2054,12 +2054,12 @@ input, select, textarea {
 				width: 150px;
 			}
 
-			header.major > :first-child:before {
+			.major > :first-child:before {
 				background-position: center right;
 				margin-right: 1em;
 			}
 
-			header.major > :first-child:after {
+			.major > :first-child:after {
 				-moz-transform: scaleX(-1);
 				-webkit-transform: scaleX(-1);
 				-ms-transform: scaleX(-1);
@@ -2068,7 +2068,7 @@ input, select, textarea {
 				margin-left: 1em;
 			}
 
-		header.major p {
+		.major p {
 			color: #808080;
 			font-size: 1.1em;
 			line-height: 1.65em;
@@ -2873,7 +2873,7 @@ input, select, textarea {
 				color: #e9f7fc;
 			}
 
-			.wrapper.style2 header.major > :first-child:before, .wrapper.style2 header.major > :first-child:after {
+			.wrapper.style2 .major > :first-child:before, .wrapper.style2 .major > :first-child:after {
 				background-image: url("images/header-major-on-dark.svg");
 			}
 
@@ -3277,7 +3277,7 @@ input, select, textarea {
 
 		/* Section/Article */
 
-			header.major > :first-child:before, header.major > :first-child:after {
+			.major > :first-child:before, .major > :first-child:after {
 				background-size: 75px 20px;
 				width: 75px;
 			}
@@ -3343,18 +3343,18 @@ input, select, textarea {
 
 		/* Section/Article */
 
-			header.major {
+			.major {
 				overflow-x: hidden;
 			}
 
-				header.major > :first-child {
+				.major > :first-child {
 					display: inline-block;
 					margin: 0;
 					padding: 0 1em;
 					position: relative;
 				}
 
-					header.major > :first-child:before, header.major > :first-child:after {
+					.major > :first-child:before, .major > :first-child:after {
 						background-position: right center;
 						background-size: 300% 20px;
 						display: block;
@@ -3364,15 +3364,15 @@ input, select, textarea {
 						width: 200%;
 					}
 
-					header.major > :first-child:before {
+					.major > :first-child:before {
 						left: 100%;
 					}
 
-					header.major > :first-child:after {
+					.major > :first-child:after {
 						right: 100%;
 					}
 
-					header.major > :first-child + p {
+					.major > :first-child + p {
 						margin-top: 2em;
 					}
 
@@ -3610,19 +3610,19 @@ input, select, textarea {
 
 		/* Section/Article */
 
-			header.major {
+			.major {
 				margin-bottom: 3em;
 			}
 
-				header.major > :first-child {
+				.major > :first-child {
 					padding: 0 0.5em;
 				}
 
-					header.major > :first-child:before, header.major > :first-child:after {
+					.major > :first-child:before, header.major > :first-child:after {
 						background-size: 300% 10px;
 					}
 
-				header.major p {
+				.major p {
 					font-size: 1em;
 				}
 

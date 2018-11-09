@@ -123,9 +123,9 @@
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    top: 800%;
+    top: 40%;
     z-index: 10;
-    position: relative;
+    position: absolute;
 }
 
 @media (max-width: 450px){
@@ -135,12 +135,16 @@
   }
 }
 
-#header h1 {
+h1 {
   color: inherit;
   font-size: 3em;
   margin: 0 0 0.5em 0;
   padding: 0;
   z-index: 1;
+}
+
+.subtitle {
+  font-size: 1.5em;
 }
 
 .navtitle {
