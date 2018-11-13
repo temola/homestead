@@ -9,39 +9,51 @@
 		<title>James Millikin Homestead</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="font-awesome-animation.min.css">
-		<link rel="stylesheet" href="assets/css/custom.css" />
+		<link rel="stylesheet" href="assets/libraries/slick/slick.css">
+	  <link rel="stylesheet" href="assets/libraries/slick/slick-theme.css">
+	  <link rel="stylesheet" href="assets/css/font-awesome-animation.min.css">
+	  <link rel="stylesheet" href="assets/css/main.css">
+	  <link rel="stylesheet" href="assets/css/custom.css">
+	  <link rel="icon" type="image/png" href="favicon.png">
 	</head>
 	<body class="landing is-preload" id="top">
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header" class="alt">
-					<div class="navtitle"><a href="index.html">James Millikin Homestead</a></div>
-					<nav id="nav">
-						<ul>
-							<li><a href="tours.html">Tours & Rates</a></li>
-							<li><a href="events.html">Events</a></li>
-							<li><a href="getinvolved.html">Get Involved</a></li>
-							<li>
-								<a href="gallery.html" class="icon fa-angle-down">Galleries</a>
-								<ul>
-									<li><a href="eventGallery.html">Event Gallery</a></li>
-									<li><a href="roomGallery.html">Room Gallery</a></li>
-									<li><a href="homesteadGallery.html">Homestead Gallery</a></li>
-								</ul>
-							</li>
-							<li><a href="history.html">History</a></li>
-						</ul>
-					</nav>
-				</header>
-
-			<!-- Banner -->
-				<section id="banner" class="image fit">
-					<h2>James Millikin Homestead</h2>
-					<p>125 North Pine St.</p>
-				</section>
+			<header id="header">
+				<div class="navtitle"><a href="index.html">James Millikin Homestead</a></div>
+				<nav id="nav">
+					<ul>
+						<li><a href="tours.html">Tours & Rates</a></li>
+						<li><a href="events.html">Events</a></li>
+						<li><a href="getinvolved.html">Get Involved</a></li>
+						<li class="sub-menu-parent" tab-index="0">
+							<a href="gallery.html" class="icon fa-angle-down">Galleries</a>
+							<ul class="sub-menu">
+								<li><a href="eventGallery.html">Events</a></li>
+								<li><a href="roomGallery.html">Rooms</a></li>
+								<li><a href="homesteadGallery.html">Homestead</a></li>
+							</ul>
+						</li>
+						<li><a href="history.html">History</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="hero-heading">
+        <h1>James Millikin Homestead</h1>
+        <div class="subtitle">125 North Pine St.</div>
+      </div>
+    <section class="lazy slider" data-sizes="50vw">
+      <div>
+        <img data-lazy="images/homesteadBannerDining.jpg" data-srcset="images/homesteadBannerDining.jpg" data-sizes="100vw">
+      </div>
+      <div>
+        <img data-lazy="images/homesteadBannerStairs.jpg" data-srcset="images/homesteadBannerStairs.jpg" data-sizes="100vw">
+      </div>
+      <div>
+        <img data-lazy="images/homesteadBannerStove.jpg" data-srcset="images/homesteadBannerStove.jpg" data-sizes="100vw">
+      </div>
+    </section>
 
 			<!-- One -->
 				<div class="wrapper style1">
@@ -259,14 +271,11 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<!--<script src="http://code.jquery.com/jquery-2.1.3.min.js" integrity="sha256-ivk71nXhz9nsyFDoYoGf2sbjrR9ddh+XDkCcfZxjvcM=" crossorigin="anonymous"></script>-->
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/custom.js"></script>
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/libraries/slick/slick.js"></script>
+		<script src="assets/js/slider.js"></script>
+		<script src="assets/js/main.js"></script>
 	</body>
 </html>
