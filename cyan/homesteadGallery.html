@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css">
 		<link rel="stylesheet" href="assets/css/custom.css">
 		<link rel="icon" type="image/png" href="favicon.png">
+		<link rel="stylesheet" href="assets/css/lightbox.css" />
 	</head>
 	<body class="is-preload" id="top">
 		<div id="page-wrapper">
@@ -45,12 +46,22 @@
 						</header>
 
 						<!-- Content -->
-
+						<!--
 						<a data-flickr-embed="true"  href="https://www.flickr.com/photos/167105455@N07/albums/72157701164448221" title="homestead">
 							<img src="https://farm2.staticflickr.com/1968/45496370141_54dc6fde34_z.jpg" width="1180" height="885" alt="homestead"></a>
 							<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 						</section>
 					</div>
+
+					-->
+					<div id = "gallery-div" data-flickr-user="167105455@N07" data-flickr-photoset="72157701164448221">
+			    </div>
+			    <script src="assets/js/lightbox.js"></script>
+			    <script type="text/javascript">
+			      var gallery = new Gallery("gallery-div");
+			    </script>
+				</section>
+			</div>
 			<!-- Footer -->
 			<footer id="footer">
 				<ul class="menu">

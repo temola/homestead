@@ -1,0 +1,114 @@
+
+.lightbox-thumb {
+  border: 1.5px solid rgba(0, 0, 0, .75);
+  -webkit-filter: saturate(0.5) opacity(.5);
+  filter: saturate(0.5) opacity(10px);
+  margin: .5em;
+  width: 6em;
+
+}
+
+.lightbox-thumb:hover {
+  border: 1.5px solid rgba(0, 0, 0, .75);
+    -webkit-filter: saturate(1.5) opacity(1);
+    filter: saturate(1.5) opacity(1);
+}
+#lightbox {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .75);
+
+}
+
+/* IE Fix for Background Translucency */
+
+#lightbox:nth-child(n) {
+  filter: none;
+}
+.hide {
+  display: none !important;
+}
+#lightbox-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: initial;
+  width: initial;
+  display: table;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 2.5px;
+}
+#lightbox #lightbox-content #lightbox-img-wrapper {
+  display: table;
+}
+#lightbox #lightbox-content p#lightbox-title {
+  text-align: center;
+  color: #484848;
+  font-size: 18px;
+  font-family: 'Arial';
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: table-caption;
+  caption-side: bottom;
+}
+#lightbox #lightbox-content img#lightbox-photo {
+  display: inline;
+}
+#lightbox #lightbox-content #lightbox-left-arrow {
+  display: block;
+  background-image: url('images/arrow-left.png');
+  width: 33px;
+  height: 43px;
+  position: absolute;
+  left: 10px;
+  cursor: pointer;
+}
+#lightbox #lightbox-content #lightbox-right-arrow {
+  background-image: url('images/arrow-right.png');
+  width: 33px;
+  height: 43px;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+#lightbox #lightbox-content #lightbox-spinner {
+  background: url('images/ajax-loader.gif');
+  display: none;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 125px;
+  top: 125px;
+}
+
+/** Before Image Loaded Styles **/
+
+#lightbox #lightbox-content.preload {
+  width: 250px;
+  height: 250px;
+  margin-left: -125px;
+  margin-top: -125px;
+
+}
+#lightbox #lightbox-content.preload img#lightbox-photo {
+  display: none;
+}
+#lightbox #lightbox-content.preload p#lightbox-title {
+  display: none;
+}
+#lightbox #lightbox-content.preload #lightbox-left-arrow {
+  display: none;
+}
+#lightbox #lightbox-content.preload #lightbox-right-arrow {
+  display: none;
+}
+#lightbox #lightbox-content.preload #lightbox-spinner {
+  display: block;
+}
+
+img, canvas, iframe, video, svg, select, textarea {
+  max-width: 100%;}
