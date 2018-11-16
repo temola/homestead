@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css">
 		<link rel="stylesheet" href="assets/css/custom.css">
 		<link rel="icon" type="image/png" href="favicon.png">
+		<link rel="stylesheet" href="assets/css/lightbox.css" />
 	</head>
 	<body class="is-preload" id="top">
 		<div id="page-wrapper">
@@ -44,13 +45,21 @@
 							<h2>Room Gallery</h2>
 						</header>
 
-						<!-- Content -->
+						<!-- Content
 						<a data-flickr-embed="true" href="https://www.flickr.com/photos/167105455@N07/albums/72157701163494591" title="rooms">
 							<img src="https://farm2.staticflickr.com/1917/44210594074_e6be47964d_z.jpg" width="1180" height="885" alt="rooms"></a>
 							<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 							</section>
 						</div>
-
+					-->
+					<div id = "gallery-div" data-flickr-user="167105455@N07" data-flickr-photoset="72157701163494591">
+					</div>
+					<script src="assets/js/lightbox.js"></script>
+					<script type="text/javascript">
+						var gallery = new Gallery("gallery-div");
+					</script>
+				</section>
+			</div>
 			<!-- Footer -->
 			<footer id="footer">
 				<ul class="menu">
