@@ -89,12 +89,12 @@ img.gallery:hover{
   transition:filter .5s, transform .5s;
 }
 
-.wrapper.style3 {
+.wrapper.style4 {
     padding: .1em 0;
 }
 
 .wrapper.style1 {
-    padding: 6em 0 0;
+    padding: 6em 0;
 }
 /************ Carousel ************/
 
@@ -230,4 +230,8 @@ nav > ul { text-align: center; }
 
 #gallery-div {
     min-height: 30em;
+}
+
+.center {
+  text-align: center;
 }
