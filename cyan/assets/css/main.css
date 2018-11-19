@@ -2252,9 +2252,7 @@ input, select, textarea {
 	.box {
 		background: #fff;
 		box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
-		margin-bottom: 2em;
 		padding: 2.25em;
-    border-radius:3%;
 	}
 
 		.box > :last-child,
@@ -2273,6 +2271,9 @@ input, select, textarea {
 			padding: 0;
 		}
 
+.box-img{
+  width:100%;
+}
 /* Icon */
 
 	.icon {
@@ -3743,3 +3744,14 @@ input, select, textarea {
 			}
 
 	}
+
+
+  .style3 .container .row {
+      width: 95%;
+      margin: 0 auto;
+      padding-bottom: 5em;
+    }
+
+  .style3 .container .row > * {
+        padding: 0 0 0 1.4em;
+    }
