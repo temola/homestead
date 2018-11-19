@@ -356,7 +356,7 @@ Gallery.prototype.createGrid = function createGrid() {
     var p = document.createElement('img');
     p.setAttribute('class', 'lightbox-thumb');
     p.setAttribute('id', i);
-    p.setAttribute('src', photo.thumb);
+    p.setAttribute('src', photo.url);
     p.setAttribute('data-large', photo.url);
     p.addEventListener('click', _this.onThumbClickHandler, false);
     grid.appendChild(p);
@@ -384,3 +384,5 @@ Gallery.prototype.createGrid = function createGrid() {
  * @param {Photo[]} data.photos Array of photos of the photoset, if call succeeded
  * @param {string} data.msg Description of error if API call failed
  */
+
+var gallery = new Gallery("gallery-div");
