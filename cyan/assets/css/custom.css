@@ -241,7 +241,7 @@ nav > ul { text-align: center; }
   display: flex;
   flex-direction: column;
   padding: 1.5em;
-  width: 456px;
+  width: auto;
   height: 326px;
   border-radius: 10px;
 }
@@ -353,4 +353,3 @@ h4.group{
 
 img.box-img.banner-img {
     padding-bottom: 1em;
-}
