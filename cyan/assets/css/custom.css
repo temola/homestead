@@ -141,9 +141,10 @@ img.gallery:hover{
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    top: 40%;
+    top: 35%;
     z-index: 10;
     position: absolute;
+    font-size: 1.8em;
 }
 
 @media (max-width: 450px){
@@ -353,3 +354,8 @@ h4.group{
 
 img.box-img.banner-img {
     padding-bottom: 1em;
+  }
+
+    .col-3.col-12-narrower.bc {
+        margin: 0 auto;
+    }
