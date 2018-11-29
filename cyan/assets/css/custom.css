@@ -254,13 +254,7 @@ nav > ul { text-align: center; }
   text-transform: uppercase;
 }
 
-.meetup {
-  color: #555555;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 1;
-  text-decoration: none;
-}
+
 
 .group {
   flex-grow: 1;
@@ -287,4 +281,72 @@ nav > ul { text-align: center; }
 
 .row-item {
   padding-left: 10px;
+}
+
+.eventWrapper{
+  font-family: 'Lato', sans-serif;
+}
+
+.eventWrapper .upper{
+  color: #555555;
+}
+
+.eventWrapper h2.meetup a{
+  color:#395775;
+}
+
+.eventWrapper.details.eventRow strong.row-item {
+  color:#19aced;
+}
+
+.upper {
+    border-bottom: 1px solid rgba(57, 87, 117, .7);
+  }
+
+  i.fa.fa-calendar {
+      padding-top: .3em;
+  }
+
+  i.fa.fa-map-marker {
+      padding: .3em .3em 0 0;
+  }
+
+  .event-row .row-item{
+    color:#19aced;
+    margin: 20px 0 0;
+  }
+
+h1{
+  font-size: 2.1em;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+a.meetup {
+    text-decoration: none;
+}
+
+
+.wrapper.style2 .eventWrapper h3{
+  color:#395775;
+  font-size:32px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  padding-top: .2em;
+}
+
+.eventWrapper h4.group{
+  color:#55555;
+}
+
+h4.group{
+  line-height: 0;
+  font-size: 1.3em;
+}
+
+.wrapper.style2 .eventWrapper h3:hover{
+  color:#19aced;
 }
