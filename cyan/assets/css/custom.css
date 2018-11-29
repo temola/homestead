@@ -149,9 +149,13 @@ img.gallery:hover{
 
 @media (min-width:0) and (max-width: 450px){
 .hero-heading{
-  top: 5%;
+  top: 8%;
   padding: 0 1em;
   }
+
+  .slick-initialized .slick-slide {
+    height: 15em;
+}
 
   .hero-heading h1{
     font-size:1.3em
@@ -369,7 +373,7 @@ a.meetup {
 }
 
 h4.group{
-  line-height: 0;
+  line-height: 1;
   font-size: 1.3em;
 }
 

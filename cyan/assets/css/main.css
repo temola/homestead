@@ -3450,7 +3450,7 @@ input, select, textarea {
 				transition: transform 0.5s ease;
 				display: block;
 				height: 4em;
-				right: 0;
+				left: 0;
 				position: fixed;
 				top: 0;
 				width: 6em;
@@ -3488,8 +3488,9 @@ input, select, textarea {
 						line-height: 2.25em;
 						position: absolute;
 						text-align: center;
-						top: 0.5em;
-						width: 3.5em;
+            border-radius: 5%;
+            top: 0.5em;
+            width: 3.2em;
 					}
 
 			#navPanel {
@@ -3520,7 +3521,7 @@ input, select, textarea {
 				#navPanel .link {
 					border-bottom: 0;
 					border-top: solid 1px rgba(255, 255, 255, 0.05);
-					color: #888;
+          color: #ccc;
 					display: block;
 					height: 44px;
 					line-height: 44px;

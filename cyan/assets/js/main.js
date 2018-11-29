@@ -27,7 +27,7 @@
 				$body.removeClass('is-preload');
 			}, 100);
 		});
-/**
+
 	// Dropdowns.
 		$('#nav > ul').dropotron({
 			alignment: 'center'
@@ -62,12 +62,12 @@
 					target: $body,
 					visibleClass: 'navPanel-visible'
 				});
-*/
+
 	// Header.
 	// If the header is using "alt" styling and #banner is present, use scrollwatch
 	// to revert it back to normal styling once the user scrolls past the banner.
 	// Note: This is disabled on mobile devices.
-  /**
+
 		if (!browser.mobile
 		&&	$header.hasClass('alt')
 		&&	$banner.length > 0) {
@@ -84,6 +84,6 @@
 			});
 
 		}
-    */
+
 
 })(jQuery);
