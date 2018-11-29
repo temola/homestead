@@ -153,6 +153,10 @@ img.gallery:hover{
   padding: 0 1em;
   }
 
+  .wrapper.style1 {
+    padding:1em;
+}
+
   .slick-initialized .slick-slide {
     height: 15em;
 }
