@@ -350,3 +350,7 @@ h4.group{
 .wrapper.style2 .eventWrapper h3:hover{
   color:#19aced;
 }
+
+img.box-img.banner-img {
+    padding-bottom: 1em;
+}
