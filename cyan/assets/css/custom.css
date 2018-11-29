@@ -147,11 +147,36 @@ img.gallery:hover{
     font-size: 1.8em;
 }
 
-@media (max-width: 450px){
+@media (min-width:0) and (max-width: 450px){
 .hero-heading{
-  top: 20%;
+  top: 5%;
   padding: 0 1em;
   }
+
+  .hero-heading h1{
+    font-size:1.3em
+  }
+
+  .hero-heading .subtitle {
+    font-size: 1em;
+  }
+
+  .row.gtr-uniform {
+      padding: 0 2em;
+  }
+
+  .major {
+    padding: 0 2em;
+  }
+
+  .major > :first-child:before {
+    width: 60%;
+}
+
+  .major > :first-child:after {
+      width: 60%;
+  }
+
 }
 
 h1 {

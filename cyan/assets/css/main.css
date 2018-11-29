@@ -3450,7 +3450,7 @@ input, select, textarea {
 				transition: transform 0.5s ease;
 				display: block;
 				height: 4em;
-				left: 0;
+				right: 0;
 				position: fixed;
 				top: 0;
 				width: 6em;
