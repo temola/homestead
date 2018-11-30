@@ -394,5 +394,22 @@ img.box-img.banner-img {
     }
 
 .active {
-  color: #19ACED !important; 
+  color: #19ACED !important;
+}
+
+@media (min-width: 451px) and (max-width: 1024px) {
+
+
+  .hero-heading{
+    top: 15%;
+    }
+
+  .hero-heading h1{
+    font-size:1.6em;
+  }
+
+  .hero-heading .subtitle {
+    font-size:1em;
+  }
+
 }
