@@ -173,10 +173,6 @@ img.gallery:hover{
       padding: 0 2em;
   }
 
-  .major {
-    padding: 0 2em;
-  }
-
   .major > :first-child:before {
     width: 60%;
 }
@@ -278,6 +274,10 @@ nav > ul { text-align: center; }
   width: auto;
   height: 326px;
   border-radius: 10px;
+}
+
+@media (min-width:0) and (max-width: 450px) {
+  
 }
 
 .upper {
