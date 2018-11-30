@@ -392,3 +392,7 @@ img.box-img.banner-img {
     .col-3.col-12-narrower.bc {
         margin: 0 auto;
     }
+
+.active {
+  color: #19ACED !important; 
+}
