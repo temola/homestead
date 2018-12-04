@@ -277,7 +277,7 @@ nav > ul { text-align: center; }
 }
 
 @media (min-width:0) and (max-width: 450px) {
-  
+
 }
 
 .upper {
@@ -286,12 +286,6 @@ nav > ul { text-align: center; }
   font-size: 24px;
   line-height: 2;
   text-transform: uppercase;
-}
-
-
-
-.group {
-  flex-grow: 1;
 }
 
 .eventIcon {
@@ -370,6 +364,7 @@ a.meetup {
   line-height: 1;
   text-decoration: none;
   padding-top: .2em;
+  margin: 0;
 }
 
 .eventWrapper h4.group{
@@ -379,6 +374,11 @@ a.meetup {
 h4.group{
   line-height: 1;
   font-size: 1.3em;
+  margin: 0.5em 0 0 0;
+}
+
+p.details {
+    margin: 0;
 }
 
 .wrapper.style2 .eventWrapper h3:hover{
