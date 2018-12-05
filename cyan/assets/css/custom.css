@@ -399,7 +399,6 @@ img.box-img.banner-img {
 
 @media (min-width: 451px) and (max-width: 1024px) {
 
-
   .hero-heading{
     top: 15%;
     }
@@ -414,6 +413,14 @@ img.box-img.banner-img {
 
 }
 
-@media (min-width: 0px) and (max-width: 1120px) {
-  
+@media (min-width: 1120px) {
+  a.navPanel {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 1121px) {
+  #header nav > ul > li {
+    margin-left: 1.5em;
+  }
 }
