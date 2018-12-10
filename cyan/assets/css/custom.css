@@ -424,3 +424,35 @@ img.box-img.banner-img {
     margin-left: 1.5em;
   }
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.background-grid section {
+  height: 100%;
+}
+
+.background-grid {
+    position: relative;
+}
+
+.actions.fit {
+    position: absolute;
+    width: 70%;
+    bottom: 1em;
+}
+
+@media (min-width: 0px) and (max-width: 840px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 840px) {
+  .actions.fit {
+    position: relative;
+    width: 100%;
+  }
+}

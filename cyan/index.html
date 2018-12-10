@@ -65,40 +65,38 @@
 							<p>The James Millikin Homestead, located in Decatur, Illinois, is the former residence of James and Anna Millikin, founders of Millikin University, Millikin Bank,
 								and Millikin Estate Trust. In June 1974, the Millikin Homestead was added to the National Register of Historic places.</p>
 						</header>
-						<div class="row gtr-uniform">
-							<div class="col-4 col-12-narrower">
-								<section data-key="groupName" class="box special corners">
+						<div class="row gtr-uniform grid">
+							<div class="background-grid">
+								<section class="box special corners">
 									<a class="icon-a" href="getinvolved.html"><i class="icon major fa-handshake-o"></i></a>
 									<h3><a href="getinvolved.html">Get Involved</a></h3>
 									<p>The Homestead, Inc., a not for profit corporation, was created in 1979 and is responsible for the maintenance and restoration of the interior of the
 										homestead. By coming to events or making a donation you are helping maintain this piece of Decatur history.</p>
-									<br>
-									<ul class="actions fit">
-										<li><a href="getinvolved.html" class="button fit">Get Involved</a></li>
-									</ul>
+									<div class="actions fit">
+										<a href="getinvolved.html" class="button fit">Get Involved</a>
+									</div>
 								</section>
 							</div>
-							<div class="col-4 col-12-narrower">
-								<section data-key="groupName" class="box special corners">
+							<div class="background-grid">
+								<section class="box special corners">
 									<a class="icon-a" href="tours.html"><i class="icon major fa-bus"></i></a>
 									<h3><a href="tours.html">Tours & Rates</a></h3>
 									<p>Through regularly scheduled open houses, educational events, custom tours and rentals, fundraisers on location, and off-site sponsored events, the Homestead
 										makes an effort to reach many different age and interest groups. Take a <a href="http://youvis.it/nqQm3c" target="_blank">virtual tour of the homestead.</a></p>
-									<br>
-									<ul class="actions fit">
-										<li><a href="tours.html" class="button fit">Tours & Rates</a></li>
-									</ul>
+									<div class="actions fit">
+										<a href="tours.html" class="button fit">Tours & Rates</a>
+									</div>
 								</section>
 							</div>
-							<div class="col-4 col-12-narrower">
-								<section data-key="groupName" class="box special corners">
+							<div class="background-grid">
+								<section class="box special corners">
 									<a class="icon-a" href="history.html"><i class="icon major fa-book"></i></a>
 									<h3><a href="history.html">History</a></h3>
 									<p>The James Millikin Homestead construction began in July 1875, and continued into 1876. The home's exterior reflects the Italianate style, the roofs being the
 										only exception. The roofs are Mansard style and are crested with wrought iron, common to the Second Empire style.</p>
-									<ul class="actions fit">
-										<li><a href="history.html" class="button fit">History</a></li>
-									</ul>
+									<div class="actions fit">
+										<a href="history.html" class="button fit">History</a>
+									</div>
 								</section>
 							</div>
 						</div>
@@ -203,7 +201,7 @@
 						<div id="contact" class="box">
 							<div class="row gtr-uniform">
 								<div class="col-7 col-12-narrower">
-									<form method="post" action="#">
+									<form method="post" action="PHPMailer/examples/gmailcontactform.phps">
 										<div class="row gtr-uniform gtr-50">
 											<div class="col-12">
 												<input type="text" name="name" id="name" placeholder="Name" />
@@ -217,6 +215,7 @@
 											<div class="col-12">
 												<ul class="actions">
 													<li><input type="submit" value="Send" /></li>
+													<li><input type="hidden" name="redirect" value="thankyou.html" /></li>
 													<li><input type="reset" class="alt" value="Reset" /></li>
 												</ul>
 											</div>
