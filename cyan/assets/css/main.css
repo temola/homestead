@@ -2263,6 +2263,7 @@ input, select, textarea {
 
 		.box.special {
 			padding: 3em 2.25em;
+			flex-wrap: nowrap;
 		}
 
 		.box.alt {
